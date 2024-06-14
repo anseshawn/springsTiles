@@ -8,15 +8,38 @@
 	<meta charset="UTF-8">
 	<title>baseLayout.jsp</title>
 	<jsp:include page="/WEB-INF/views/include/bs4.jsp" />
+	<style>
+	  .bodyLeft {
+      float: left;
+      width: 15%;
+    }
+    .bodyMiddle {
+      float: left;
+      width: 70%;
+    }
+	  .bodyRight {
+      float: left;
+      width: 15%;
+    }
+    .footer {
+      clear: both;
+    }
+	</style>
 </head>
 <body>
 <tiles:insertAttribute name="header" />
 <tiles:insertAttribute name="nav" />
-<p><br/></p>
 <div class="container text-center" style="height:500px">
+<div class="bodyLeft">
+	<tiles:insertAttribute name="aside" />
+</div>
+<div class="bodyMiddle">
 	<tiles:insertAttribute name="body" />
 </div>
-<p><br/></p>
+<div class="bodyRight">
+	<tiles:insertAttribute name="asideRight" />
+</div>
+</div>
 <tiles:insertAttribute name="footer" />
 </body>
 </html>

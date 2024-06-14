@@ -14,6 +14,8 @@
 	<definition name="layoutYes" template="/WEB-INF/views/layout/baseLayout.jsp">
 		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp" />
 		<put-attribute name="nav" value="/WEB-INF/views/layout/nav.jsp" />
+		<put-attribute name="aside" value="/WEB-INF/views/layout/aside.jsp" />
+		<put-attribute name="asideRight" value="/WEB-INF/views/layout/asideRight.jsp" />
 		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
 	</definition>
 	<definition name="*/*" extends="layoutYes"> <!-- 어떤 폴더의 어떤 파일이 와도 관계 없음 -->
