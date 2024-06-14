@@ -16,12 +16,11 @@
 </head>
 <body>
 <div class="text-center pt-4" style="background-color:#eee; height:500px;">
-	<h3>이곳은 aside.jsp 영역입니다.</h3>
-	<p><p><a href="${ctp}/main/memberMain">홈으로</a></p> 
-	<p><a href="${ctp}/tiles/guestList">방명록</a></p>
-	<p><a href="${ctp}/tiles/boardList">게시판</a></p>
-	<p><a href="${ctp}/tiles/pdsList">자료실</a></p>
-	<p><a href="${ctp}/tiles/myPage">MyPage</a></p>
+	<p><p><a href="${ctp}/main/memberMain">Home</a></p> 
+	<p><a href="${ctp}/tiles/guestList">Guest</a></p>
+	<p><a href="${ctp}/tiles/boardList">Board</a></p>
+	<p><a href="${ctp}/tiles/pdsList">Pds</a></p>
+	<p><a href="${ctp}/tiles/aria">ARIA암호화</a></p>
 </div>
 </body>
 </html>
